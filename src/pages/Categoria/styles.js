@@ -3,8 +3,13 @@ import styled from 'styled-components';
 export const Categoria = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
   list-style: none;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
 
   strong {
     display: flex;
@@ -20,18 +25,13 @@ export const Categoria = styled.div`
     flex-direction: row;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4px;
-    padding: 20px;
+    max-height: 300px;
+    padding: 10px;
   }
 
   img {
-    flex: 1;
-    align-items: center;
-    display: block;
-    max-width: 180px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 50%;
+    height: auto;
     border-radius: 4px;
   }
-
-  &: hover;
 `;

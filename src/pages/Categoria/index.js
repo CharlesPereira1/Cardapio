@@ -11,23 +11,31 @@ export default function Cart() {
   return (
     <Categoria>
       <li>
-        <strong>Hamburguer</strong>
-        <img src={hamburguer} alt="hamburguer" />
+        <div>
+          <strong>Hamburguer</strong>
+          <img src={hamburguer} alt="hamburguer" />
+        </div>
       </li>
 
       <li>
-        <strong>Refrigerantes</strong>
-        <img src={refrigerante} alt="hamburguer" />
+        <div>
+          <strong>Porções</strong>
+          <img src={porcoes} alt="hamburguer" />
+        </div>
       </li>
 
       <li>
-        <strong>Sucos</strong>
-        <img src={sucos} alt="hamburguer" />
+        <div>
+          <strong>Refrigerantes</strong>
+          <img src={refrigerante} alt="hamburguer" />
+        </div>
       </li>
 
       <li>
-        <strong>Porções</strong>
-        <img src={porcoes} alt="hamburguer" />
+        <div>
+          <strong>Sucos</strong>
+          <img src={sucos} alt="hamburguer" />
+        </div>
       </li>
     </Categoria>
   );
