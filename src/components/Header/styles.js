@@ -24,7 +24,7 @@ export const Cart = styled(Link)`
 
     strong {
       display: block;
-      color: ${colors.linkActive};
+      color: ${colors.dark};
     }
 
     span {

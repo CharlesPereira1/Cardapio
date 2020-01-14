@@ -12,7 +12,7 @@ export default {
   disabled: '#ddd',
 
   focus: '#edff00',
-  bg: '#ebebeb',
+  bg: '#ffff',
   border: '#ddd',
   placeholder: '#999',
   input: '#333',
