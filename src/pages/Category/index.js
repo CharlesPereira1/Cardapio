@@ -7,7 +7,7 @@ import porcoes from '../../assets/categoria/porcoes.jpg';
 
 import { Categoria } from './styles';
 
-export default function Cart() {
+export default function Category() {
   return (
     <Categoria>
       <li>

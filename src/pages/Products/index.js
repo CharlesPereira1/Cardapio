@@ -4,7 +4,7 @@ import { MdShoppingCart } from 'react-icons/md';
 
 import { ProductList } from './styles';
 
-export default function Home() {
+export default function Products() {
   return (
     <ProductList>
       <li>
